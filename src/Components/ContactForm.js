@@ -142,7 +142,7 @@ export default function ContactForm(){
                         </div>
                     </div>
                     <div className="flex justify-end">
-                        <input disabled={pageState.isLoading} type='submit' value={(pageState.isLoading?"Sending...":"Next")} className={`bg-orange w-[150px] border-none outline-none text-white fontEpilouge font-extrabold p-1 rounded-md my-10 ${(pageState.isLoading? "opacity-50":"")}`}/>
+                        <input disabled={pageState.isLoading} type='submit' value={(pageState.isLoading?"Sending...":"Send")} className={`bg-orange w-[150px] border-none outline-none text-white fontEpilouge font-extrabold p-1 rounded-md my-10 ${(pageState.isLoading? "opacity-50":"")}`}/>
                     </div>
                 </form>
             </div>
