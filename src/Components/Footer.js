@@ -9,16 +9,16 @@ export default function Footer(){
                     <p className="text-[12px]">Powered by Apple and Infosys</p>
                 </div>
                 <div className="text-[16px] font-semibold flex gap-[80px] items-center fontEpilouge">
-                    <Link className="border-none outline-none" to='/'>
+                    <Link  to='/' className="border-none outline-none">
                         <p>Home</p>
                     </Link>
-                    <Link className="border-none outline-none" to='/Projects'>
+                    <Link to='/Projects' className="border-none outline-none">
                         <p>Projects</p>
                     </Link>
-                    <Link className="border-none outline-none" to='/Gallery'>
+                    <Link  to='/Gallery' className="border-none outline-none">
                         <p>Gallery</p>
                     </Link>
-                    <Link className="border-none outline-none" to='/Contact'>
+                    <Link  to='/Contact' className="border-none outline-none">
                         <p>Contact</p>
                     </Link>
                     {/* <button className="border-none outline-none" onClick={()=>{setPageState('Home')}}>
