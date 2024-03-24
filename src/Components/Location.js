@@ -3,7 +3,7 @@ import LO from '../Assets/Location.png';
 export default function Location(){
     return(
         <div className="flex justify-center items-center w-[100%] pt-[120px]">
-            <div className='flex justify-center w-[75%]'>
+            <div className='flex justify-center w-[75%] gap-[20px]'>
                 <div className="flex flex-col w-[50%] justify-between gap-[20px]">
                     <p className="text-[28px] fontEpilouge font-extrabold">Our Location</p>
                     <div className=' border-2 border-orange rounded-md w-fit'>
