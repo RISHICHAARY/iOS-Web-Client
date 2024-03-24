@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontInter{
+    font-family: "Inter", sans-serif;
+}
+
+.fontEpilouge{
+    font-family: "Epilogue", sans-serif;
+}
+
+.fontHelvecia{
+    font-family: "Roboto", sans-serif;
+}
+
+.fontTimes{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner{
+    background-image: url('../Assets/BannerBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%;
+}
